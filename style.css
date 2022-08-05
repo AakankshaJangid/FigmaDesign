@@ -1,0 +1,209 @@
+*{
+    margin: 5px;
+}
+.nav-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    font-size: 20px;
+    padding: 10px;
+}
+.top-nav a{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+.brand{
+    padding: 10px;
+}
+.brand-name{
+    font-size: 28px;
+}
+.login{
+    color: black;
+    background: white;
+    border: 2px solid gray;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+}
+.signup{
+    color: white;
+    background: blue;
+    border: 2px solid gray;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+}
+.blur-rule {
+    height: 1px;
+    width: 100%;
+    background-color: #dedede;
+    margin: 20px 0;
+    display: block;
+    -webkit-box-shadow: 0 0 4px 0 #666;
+    -moz-box-shadow: 0 0 4px 0 #666;
+    box-shadow: 0 0 4px 0 #666;
+  }
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 15px 0px 15px;
+}
+.about-text{
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 0%;
+    font-size: 20px;
+}  
+.img{
+    height: 350px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:  10px auto;
+    width: 100%;
+    margin-left:  auto;
+    margin-right:  auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    height: 90px;
+    -webkit-box-shadow: 1px 1px 4px 1px #666;
+    -moz-box-shadow: 0 0 4px 0 #666;
+    box-shadow: 0 0 4px 0 #666;
+}
+.main {
+    align-items: center;
+    font-size: 18px;
+}
+.container a{
+    padding-top: 5px;
+    font-size: 25px;
+    font-size: 50px;
+}
+.container div{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.container div h5{
+    padding: 15px;
+}
+.heading{
+    text-align: center;
+    font-size: 35px;
+    margin: 70px;
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4px;
+}
+.container2 .frontend-dev{
+    border: 2px solid #5858f1;
+    padding: 30px 30px;
+    color: white;
+    background: linear-gradient(rgb(99, 99, 242),rgb(55, 189, 233));
+    border-radius: 20px;
+}
+.container2 .frontend-dev .small-box{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.container2 a{
+    text-decoration: none;
+}
+.small-box div{
+    display: flex;
+    flex-direction: column;
+}
+.frontend-dev:hover{
+    box-shadow: 0 0 8px #000;
+    
+}
+.head-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    margin: 15px;
+    padding: 10px;
+    background: linear-gradient(rgb(99, 99, 242),rgb(55, 189, 233));
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.fend-dev{
+    padding: 30px 30px ;
+    width: 50%;
+}
+.fend-dev .small-box{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.fend-dev p,h6{
+    margin-bottom: 30px;
+}
+.modern{
+    width: 50%;
+    padding: 30px 30px;
+}
+.main-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 25px;
+}
+.mainFD{
+    text-align: center;
+    margin: 40px;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.main-box img{
+    height: 250px;
+}
+.main-box div{
+    display: flex;
+    flex-direction: column;
+}
+.mainbox2{
+    text-align: left;
+    font-size: 23px;
+}
+.week1{
+    display: flex;
+    flex-direction: column;
+    background: rgb(129, 194, 247);
+    border-radius: 5px;
+    padding: 20px;
+}
+#week-head{
+    padding-left: 15px;
+}
+.courses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+}
+.courses div ul{
+    list-style: none;
+    text-align: left;
+    padding-left: 0px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.courses h5{
+    font-size: 20px;
+}
